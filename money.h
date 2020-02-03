@@ -1,7 +1,7 @@
 /********
  Author:
  Program: Money class - program assignment #1
- Due Date:
+ Due Date:  Monday, Feb 3
  Purpose:
  ********/
 #ifndef MONEY_H
@@ -11,6 +11,9 @@
 #include <sstream>
 #include <iomanip>
 #include <fstream>
+#include <locale>
+#include <math.h>
+#include <stdio.h>
 
 using namespace std;
 class Money
@@ -26,5 +29,8 @@ public:
     string processCheck();
     string processChangeFloat();
     string processChangeChange();
+
+
+
 };
 #endif
